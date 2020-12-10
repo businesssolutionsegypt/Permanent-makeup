@@ -10,7 +10,6 @@ require_once './vendor/autoload.php';
 
 use FormGuide\Handlx\FormHandler;
 
-
 $pp = new FormHandler(); 
 
 $validator = $pp->getValidator();
