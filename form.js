@@ -12,7 +12,6 @@ $(function()
         else
         {
             $('#error_message').append('<ul></ul>');
-
             jQuery.each(data.errors,function(key,val)
             {
                 $('#error_message ul').append('<li>'+key+':'+val+'</li>');
